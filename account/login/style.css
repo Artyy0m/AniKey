@@ -1,0 +1,207 @@
+body {
+	background: #1f1f1f;
+	margin: 0px;
+	padding: 0;
+	justify-content: center;
+	display: flex;
+}
+
+h1 {
+	color: #b9b9b9;
+}
+
+h2 {
+	color: #b9b9b9;
+}
+
+h3 {
+	color: #b9b9b9;
+}
+
+.container {
+	padding: 12px;
+}
+
+.logo {
+	color: #b9b9b9;
+	font-size: 40px;
+}
+
+nav {
+	display: flex;
+	align-items: center;
+
+}
+
+nav ul li {
+	display: inline-block;
+	list-style: none;
+	margin: 10px 15px;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: #b9b9b9;
+	font-size: 20px;
+}
+
+nav ul li a:hover{
+	background: #b9b9b9;
+	color: white;
+}
+
+.background {
+	background: url(Assets/AniKey-Home.png);
+	border-radius: 25px;
+	width: 997px;
+	height: 405px;
+	margin-top: 2vh;
+}
+
+.background h1 {
+	font-family: Arial;
+	font-weight: normal;
+	font-size: 25px;
+	color: #ffffff;
+}
+
+.background h2 {
+	font-family: Arial;
+	font-weight: normal;
+	font-size: 25px;
+	color: #ffffff;
+}
+
+.background h3 {
+	font-family: Arial;
+	font-weight: normal;
+	font-size: 25px;
+	color: #ffffff;
+}
+
+h1 {
+	color: #ffffff;
+}
+
+h3 {
+	color: #ffffff;
+}
+
+img {
+	margin-left: 15px;
+}
+
+.Premium {
+	background: url(Assets/Premium.png);
+	border-radius: 25px;
+	width: 721px;
+	height: 330px;
+	margin-top: 2vh;
+}
+
+.Basic {
+	background: url(Assets/Basic.png);
+	border-radius: 25px;
+	width: 721px;
+	height: 330px;
+	margin-top: 2vh;
+}
+
+footer {
+	background: #222; height: 33px; color: #fff; text-align: center; line-height: 33px; border-radius: 15px;
+}
+
+button {
+	padding: 12px 50px;
+	border-radius: 20px;
+	outline: none;
+	border: none;
+	font-weight: bold;
+	transition: .2s;
+	cursor: pointer;
+  }
+
+.search_anime {
+	width: 159px;
+	border: 5px;
+	border-radius: 10px;
+	color: #888888;
+	background-color: #1f1f1f;
+}
+
+.auth-background {
+	background-image: url(https://github.com/Artyy0m/AniKey/blob/main/background.png?raw=true);
+	font-style: normal;
+	font-weight: 500;
+	line-height: 20px;
+	display: flex;
+	height: 100vh;
+	width: 100vw;
+	object-fit: cover;
+	background-size: cover;
+	align-items: center;
+	justify-content: center;
+}
+
+.auth-exit-button {
+	fill: #d1d1d1;
+	cursor: pointer;
+}
+
+.auth-exit-button {
+	display: flex;
+	position: absolute;
+	top: 30px;
+	left: 30px;
+	fill: #ffffff;
+	border-radius: 50%;
+	padding: 15px;
+	transition: .3s;
+	cursor: pointer;
+	z-index: 100;
+}
+
+.auth-container {
+	display: flex;
+	flex-direction: column;
+	border-radius: 20px;
+	width: 289px;
+	height: 230px;
+	z-index: 2;
+	align-items: center;
+	background: #1f1f1f;
+}
+
+.auth-title {
+	font-family: Montserrat,sans-serif;
+	display: flex;
+	font-size: 30px;
+	font-weight: 600;
+	margin-bottom: 25px;
+	margin-top: 30px;
+	color: #fff;
+}
+
+.auth-input-login {
+	border-radius: 13px;
+	color: #fff;
+	background-color: #414141;
+	height: 30px;
+	border: 0px;
+}
+
+.auth-input-password {
+	border-radius: 13px;
+	color: #fff;
+	background-color: #414141;
+	height: 30px;
+	border: 0px;
+}
+
+.search_anime {
+	width: 159px;
+	border: 5px;
+	border-radius: 10px;
+	color: #888888;
+	background-color: #1f1f1f;
+}

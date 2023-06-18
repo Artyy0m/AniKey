@@ -1,0 +1,201 @@
+body {
+	background: #000000;
+	margin: 0px;
+	padding: 0;
+	justify-content: center;
+	display: flex;
+}
+
+h1 {
+	color: #b9b9b9;
+}
+
+h2 {
+	color: #b9b9b9;
+}
+
+h3 {
+	color: #b9b9b9;
+}
+
+.container {
+	padding: 12px;
+}
+
+.logo {
+	color: #b9b9b9;
+	font-size: 40px;
+}
+
+nav {
+	display: flex;
+	align-items: center;
+
+}
+
+nav ul li {
+	display: inline-block;
+	list-style: none;
+	margin: 10px 15px;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: #b9b9b9;
+	font-size: 20px;
+}
+
+nav ul li a:hover{
+	background: #b9b9b9;
+	color: white;
+}
+
+.background {
+	background: url(Assets/AniKey-Home.png);
+	border-radius: 25px;
+	width: 997px;
+	height: 405px;
+	margin-top: 2vh;
+}
+
+.background h1 {
+	font-family: Arial;
+	font-weight: normal;
+	font-size: 25px;
+	color: #ffffff;
+}
+
+.background h2 {
+	font-family: Arial;
+	font-weight: normal;
+	font-size: 25px;
+	color: #ffffff;
+}
+
+.background h3 {
+	font-family: Arial;
+	font-weight: normal;
+	font-size: 25px;
+	color: #ffffff;
+}
+
+h1 {
+	color: #ffffff;
+}
+
+h3 {
+	color: #ffffff;
+}
+
+a {
+	color: #ffffff;
+}
+
+img {
+	margin-left: 15px;
+}
+
+.Premium {
+	background: url(Assets/Premium.png);
+	border-radius: 25px;
+	width: 721px;
+	height: 330px;
+	margin-top: 2vh;
+}
+
+.Basic {
+	background: url(Assets/Basic.png);
+	border-radius: 25px;
+	width: 721px;
+	height: 330px;
+	margin-top: 2vh;
+}
+
+button {
+    color: #fff;
+	outline:none;
+    border:none;
+    padding:12px 15px;
+    border-radius:5px;
+    background:#3b3b3b;
+    white-space:nowrap;
+    margin-right:20px;
+    transition:.3s;
+    cursor:pointer
+}
+
+.search_anime {
+	width: 159px;
+	border: 5px;
+	border-radius: 10px;
+	color: #888888;
+	background-color: #1f1f1f;
+}
+
+.profile {
+    width: 100%;
+    max-width: 550px;
+}
+
+.profile-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.profile_username_sub {
+    text-shadow: 0 0 15px #ff4a6a;
+    color: #ff4a6a;
+}
+
+.profile_anime {
+    font-size: 14px;
+    color: #9a9a9a;
+}
+
+.profile_sms {
+    margin-top: 10px;
+    flex-wrap: nowrap;
+    display: flex;
+}
+
+.profile_avatar_sub {
+    box-shadow: 0 0 5px #ff4a6a;
+}
+
+.profile_friends_list {
+    color: #fff;
+    width: 100%;
+    border-radius: 10px;
+    background: #222;
+    padding: 10px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.profile_friends {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.profile_list_list {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.profile_list {
+    color: #fff;
+    width: 100%;
+    border-radius: 10px;
+    background: #222;
+    padding: 10px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.profile_avatar {
+	margin-bottom: 270px;
+}

@@ -1,0 +1,130 @@
+body {
+	background: #000000;
+	margin: 0px;
+	padding: 0;
+	justify-content: center;
+	display: flex;
+}
+
+h1 {
+	color: #b9b9b9;
+}
+
+h2 {
+	color: #b9b9b9;
+}
+
+h3 {
+	color: #b9b9b9;
+}
+
+.container {
+	padding: 12px;
+}
+
+.logo {
+	color: #b9b9b9;
+	font-size: 40px;
+}
+
+nav {
+	display: flex;
+	align-items: center;
+
+}
+
+nav ul li {
+	display: inline-block;
+	list-style: none;
+	margin: 10px 15px;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: #b9b9b9;
+	font-size: 20px;
+}
+
+nav ul li a:hover{
+	background: #b9b9b9;
+	color: white;
+}
+
+.background {
+	background: url(Assets/AniKey-Home.png);
+	border-radius: 25px;
+	width: 997px;
+	height: 405px;
+	margin-top: 2vh;
+}
+
+.background h1 {
+	font-family: Arial;
+	font-weight: normal;
+	font-size: 25px;
+	color: #ffffff;
+}
+
+.background h2 {
+	font-family: Arial;
+	font-weight: normal;
+	font-size: 25px;
+	color: #ffffff;
+}
+
+.background h3 {
+	font-family: Arial;
+	font-weight: normal;
+	font-size: 25px;
+	color: #ffffff;
+}
+
+h1 {
+	color: #ffffff;
+}
+
+h3 {
+	color: #ffffff;
+}
+
+a {
+	color: #ffffff;
+}
+
+img {
+	margin-left: 15px;
+}
+
+.Premium {
+	background: url(Assets/Premium.png);
+	border-radius: 25px;
+	width: 721px;
+	height: 330px;
+	margin-top: 2vh;
+}
+
+.Basic {
+	background: url(Assets/Basic.png);
+	border-radius: 25px;
+	width: 721px;
+	height: 330px;
+	margin-top: 2vh;
+}
+
+button {
+	padding: 12px 50px;
+	border-radius: 20px;
+	outline: none;
+	border: none;
+	font-weight: bold;
+	transition: .2s;
+	cursor: pointer;
+  }
+
+.search_anime {
+	width: 159px;
+	border: 5px;
+	border-radius: 10px;
+	color: #888888;
+	background-color: #1f1f1f;
+}
